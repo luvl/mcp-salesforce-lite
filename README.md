@@ -2,6 +2,16 @@
 
 Simple and lightweight Salesforce MCP server for connecting AI assistants to Salesforce data. Ideal for prototyping and small projects.
 
+[![PyPI version](https://badge.fury.io/py/mcp-salesforce-lite.svg)](https://pypi.org/project/mcp-salesforce-lite/)
+[![Python](https://img.shields.io/pypi/pyversions/mcp-salesforce-lite.svg)](https://pypi.org/project/mcp-salesforce-lite/)
+[![Downloads](https://pepy.tech/badge/mcp-salesforce-lite)](https://pepy.tech/project/mcp-salesforce-lite)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/luvl/mcp-salesforce-lite.svg)](https://github.com/luvl/mcp-salesforce-lite/stargazers)
+
+**📦 Install from PyPI:** `pip install mcp-salesforce-lite`
+**🔗 PyPI Package:** https://pypi.org/project/mcp-salesforce-lite/
+**📚 GitHub Repository:** https://github.com/luvl/mcp-salesforce-lite
+
 ## Demo
 
 See the MCP Salesforce Lite server in action with Claude Desktop:
@@ -22,6 +32,21 @@ This MCP (Model Context Protocol) server provides AI assistants like Claude with
 - 📝 CRUD operations on Salesforce records
 - 🛡️ Built-in security and rate limiting
 - 🚀 Easy setup and configuration
+
+## Quick Usage
+
+```bash
+# Install the package
+pip install mcp-salesforce-lite
+
+# Use with Claude Desktop (recommended)
+uvx --from mcp-salesforce-lite mcp-salesforce-lite
+
+# Or run directly
+mcp-salesforce-lite
+```
+
+**Works with:** Claude Desktop, any MCP-compatible AI assistant
 
 ## Quick Start with Claude Desktop
 
@@ -95,7 +120,7 @@ brew install uv  # macOS
 curl -LsSf https://astral.sh/uv/install.sh | sh  # Linux/macOS
 
 # Clone and install the server
-git clone https://github.com/yourusername/mcp-salesforce-lite.git
+git clone https://github.com/luvl/mcp-salesforce-lite.git
 cd mcp-salesforce-lite
 uv sync
 ```
@@ -103,7 +128,7 @@ uv sync
 #### Option 2: Using Poetry
 
 ```bash
-git clone https://github.com/yourusername/mcp-salesforce-lite.git
+git clone https://github.com/luvl/mcp-salesforce-lite.git
 cd mcp-salesforce-lite
 poetry install
 ```
