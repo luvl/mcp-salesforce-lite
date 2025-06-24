@@ -4,12 +4,13 @@ Simple and lightweight Salesforce MCP server for connecting AI assistants to Sal
 
 [![PyPI version](https://badge.fury.io/py/mcp-salesforce-lite.svg)](https://pypi.org/project/mcp-salesforce-lite/)
 [![Python](https://img.shields.io/pypi/pyversions/mcp-salesforce-lite.svg)](https://pypi.org/project/mcp-salesforce-lite/)
-[![Downloads](https://pepy.tech/badge/mcp-salesforce-lite)](https://pepy.tech/project/mcp-salesforce-lite)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub stars](https://img.shields.io/github/stars/luvl/mcp-salesforce-lite.svg)](https://github.com/luvl/mcp-salesforce-lite/stargazers)
 
 **📦 Install from PyPI:** `pip install mcp-salesforce-lite`
+
 **🔗 PyPI Package:** https://pypi.org/project/mcp-salesforce-lite/
+
 **📚 GitHub Repository:** https://github.com/luvl/mcp-salesforce-lite
 
 ## Demo
