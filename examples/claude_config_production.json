@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "salesforce-lite": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "mcp-salesforce-lite",
+        "mcp-salesforce-lite"
+      ],
+      "env": {
+        "SALESFORCE_ACCESS_TOKEN": "your_access_token",
+        "SALESFORCE_INSTANCE_URL": "your_instance_url"
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+name = "mcp-salesforce-lite"
+version = "0.1.1"
+description = "Simple and lightweight Salesforce MCP server for connecting AI assistants to Salesforce data"
+authors = [{name = "luvl", email = "linhnd34.jp@gmail.com"}]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.0.0",
+    "simple-salesforce>=1.12.0",
+    "python-dotenv>=1.0.0",
+]
+license = {text = "MIT"}
+keywords = ["salesforce", "mcp", "ai", "assistant", "crm"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Office/Business",
+]
+
+[project.urls]
+Homepage = "https://github.com/luvl/mcp-salesforce-lite"
+Repository = "https://github.com/luvl/mcp-salesforce-lite"
+Issues = "https://github.com/luvl/mcp-salesforce-lite/issues"
+
+[project.scripts]
+mcp-salesforce-lite = "mcp_salesforce_lite.server:main"
+
+[tool.poetry]
+name = "mcp-salesforce-lite"
+version = "0.1.1"
+description = "Simple and lightweight Salesforce MCP server for connecting AI assistants to Salesforce data"
+authors = ["luvl <linhnd34.jp@gmail.com>"]
+readme = "README.md"
+packages = [{include = "mcp_salesforce_lite", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mcp = "^1.0.0"
+simple-salesforce = "^1.12.0"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.scripts]
+mcp-salesforce-lite = "mcp_salesforce_lite.server:main"

@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "salesforce-lite": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/ABSOLUTE/PATH/TO/mcp-salesforce-lite",
+        "run",
+        "python",
+        "src/mcp_salesforce_lite/server.py"
+      ],
+      "env": {
+        "SALESFORCE_ACCESS_TOKEN": "your_access_token",
+        "SALESFORCE_INSTANCE_URL": "your_instance_url"
+      }
+    }
+  }
+}
